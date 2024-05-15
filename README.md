@@ -11,8 +11,7 @@
   
   
 
-- 
-"I'm currently working at PT. Sawit Sumbernas Sarana as an R&D programmer developer."  
+- "I'm currently working at PT. Sawit Sumbernas Sarana as an R&D programmer developer."  
   
 
 <br/>  
