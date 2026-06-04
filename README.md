@@ -82,6 +82,12 @@ const jaja = {
 
 <br/>
 
+## 🌴 Contribution Harvest
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jaja2302/jaja2302/main/assets/harvest.svg" width="100%" alt="Contribution Harvest" />
+</div>
+
 <!-- ===== TROPHIES ===== -->
 ## 🏆 GitHub Trophies
 
