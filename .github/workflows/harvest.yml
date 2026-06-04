@@ -1,0 +1,44 @@
+name: Contribution Harvest
+
+on:
+  schedule:
+    # Jalan otomatis tiap hari jam 18:00 UTC (01:00 WIB)
+    - cron: "0 18 * * *"
+  workflow_dispatch:        # bisa dijalanin manual dari tab Actions
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate harvest SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          OUT_PATH: assets/harvest.svg
+        run: python harvest.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/harvest.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: refresh contribution harvest"
+            git push
+          fi
