@@ -71,10 +71,10 @@ const jaja = {
 <!-- ===== GITHUB STATS ===== -->
 ## 📊 GitHub Stats
 
-<div align="center">
+<!-- <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jaja2302&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&include_all_commits=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaja2302&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" />
-</div>
+</div> -->
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jaja2302&hide_border=true&theme=tokyonight" />
@@ -89,11 +89,11 @@ const jaja = {
 </div>
 
 <!-- ===== TROPHIES ===== -->
-## 🏆 GitHub Trophies
 
-<div align="center">
+
+<!-- <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=jaja2302&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" />
-</div>
+</div> -->
 
 <br/>
 
