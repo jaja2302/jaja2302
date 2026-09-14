@@ -29,7 +29,7 @@ const jaja = {
 - 🔭 Lagi ngoprek **web solutions** pakai Laravel, Next.js, Express & MySQL
 - 🌱 Selalu eksplor teknologi baru biar makin jago
 - 🤝 Open buat kolaborasi
-- 🌐 Portfolio: **[elshoptech.vercel.app](https://elshoptech.vercel.app/)**
+- 🌐 Portfolio: **[jojok-dev.vercel.app](https://jojok-dev.vercel.app/)**
 
 <br/>
 
@@ -122,7 +122,7 @@ const jaja = {
   <a href="https://linkedin.com/in/jajavalentino" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://elshoptech.vercel.app/" target="_blank">
+  <a href="https://jojok-dev.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-26D0CE?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="https://github.com/jaja2302" target="_blank">
